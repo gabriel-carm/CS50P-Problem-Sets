@@ -1,0 +1,20 @@
+#Making Faces Problem
+
+#Defines main function
+def main():
+    #Takes the input
+    text = input("Insert the text: ")
+    #Print the input with the function convert
+    print(convert(text))
+
+#Defines convert function
+def convert(a):
+    #Replace the happy faces
+    b = a.replace(":)", "🙂")
+    #Replace the sad faces
+    c = b.replace(":(", "🙁")
+    #Return the replaced text
+    return c
+
+#Runs the main function
+main()
