@@ -1,0 +1,10 @@
+#Indor Voice Problem
+
+#Recieves the text
+print("This program transform any text into it's lowercase form")
+
+text = input("Insert the text: \n")
+
+#Lowercase
+text = text.lower()
+print (text)
