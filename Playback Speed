@@ -1,0 +1,6 @@
+#Playbackspeed Problem
+
+print("This program will add \"...\" in between words.")
+text = input("Insert the text: ").replace(" ","...")
+
+print (text)  
