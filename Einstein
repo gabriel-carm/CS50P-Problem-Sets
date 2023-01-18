@@ -1,0 +1,7 @@
+#Einstein Problem
+
+m = int(input("Insert the mass (kg): "))
+
+e = (m * 299792458 * 299792458)
+
+print (f"{m}kg of matter its equivalent to {e}J of energy")
